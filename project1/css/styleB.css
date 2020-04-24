@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+#a, #b, #c, #d, #e, #f {
+  width: 90px;
+  padding-left: 10px;
+  height: 150px;
+  background-color: #eeeff2;
+  border-left-width: 10px;
+  border-left-color: #D0D0FF;
+  border-left-style: dotted;
+  margin: 0;
+  cursor: pointer;
+}
+
+#a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover {
+  color: goldenrod;
+  background-color: yellow;
+}
+
+#b, #c, #d, #e {
+  margin-left: 10px;
+}
+
+#f-parent {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

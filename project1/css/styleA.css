@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+#a, #b, #c, #d, #e, #f {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+#a, #b, #c, #d, #e {
+  border-top-color: #687291;
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin: 0 auto;
+}
+
+#a, #c, #e {
+  background-color: #dfe1e7;
+}
+
+#b, #d {
+  background-color: #eeeff2;
+}
+
+#f-parent {
+  width: max-content;
+  margin: 0 auto;
+}
+
+#f {
+  display: table-cell;
+  border: 4px solid black;
+  vertical-align: middle;
+  background-color: #687291;
+}
