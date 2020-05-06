@@ -1,0 +1,103 @@
+html {
+    font-family: 'Open-Sans-Regular';
+    font-size: 15px;
+    line-height: 1.4;
+    color: #444;
+}
+
+body {
+    margin: 0;
+    font-size: 1em;
+    text-align: center;
+}
+
+#datepicker1, #datepicker2 {
+    max-width: 1100px;
+    margin: 15px auto;
+}
+
+#datepicker1-calendar-container, #datepicker2-calendar-container{
+    padding: 15px;
+    max-width: 475px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.button-container button {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1.5;
+    background: #00a2b7;
+    color: #fff;
+    border: 1px solid #0aa2b5;
+    border-radius: 4px;
+    padding: 5px 10px;
+    top: 10px;
+    outline: none;
+}
+.calendar-table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0;
+    border-top: 1px solid lightblue;
+    border-bottom: 1px solid lightblue;
+}
+
+.calendar-table td, .calendar-table th {
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#datepicker1-monthHeader, #datepicker2-monthHeader {
+    text-transform: uppercase;
+    color: #999;
+    margin: 0;
+    font-size: 24pt;
+}
+
+#datepicker1-yearHeader, #datepicker2-yearHeader{
+    margin: 0 0 10px;
+    padding: 0 3px;
+    font-size: 12pt;
+    color: #999;
+}
+
+.datepicker1-date-picker, .datepicker2-date-picker{
+    cursor: pointer;
+}
+
+.datepicker1-date-picker.selected, .datepicker2-date-picker.selected{
+    font-weight: bold;
+    outline: 1px solid #00BCD4;
+}
+
+.datepicker1-date-picker.selected span, .datepicker2-date-picker.selected span {
+    color: #00BCD4;
+}
+
+/* sunday */
+.datepicker1-date-picker:nth-child(1), .red-text, .datepicker2-date-picker:nth-child(1) {
+    color: #FA8072;
+}
+
+.datepicker1-date-unpicker, .datepicker2-date-unpicker {
+    color: #D0D3D4;
+}
+
+.button-container {
+    position: relative;
+    margin-bottom: 1em;
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+}
+
+#datepicker1-previous, #datepicker2-previous {
+    float: left;
+}
+
+#datepicker1-next, #datepicker2-next {
+    float: right;
+}
