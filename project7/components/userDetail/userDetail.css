@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700');
+
+.user-details {
+    padding: 0;
+    position: relative;
+}
+
+.intro-container {
+    height: 150px;
+    background-color: #4FC3F7;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    display: table;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name-wrap {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.info{
+    color: #D6DBDF;
+}
+
+.description-container {
+    min-height: 2em;
+    font: 1em/150% Roboto;
+    position: relative;
+    background-color: #D1F2EB;
+    border-radius: 5px;
+    width: max-content;
+    max-width: 100%;
+    color: #454545;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.description-container blockquote {
+    padding: 2em 4em;
+}
+
+.description-container blockquote::before,
+.description-container blockquote::after {
+    position: absolute;
+    height: 3rem;
+    font: 6rem/100% Roboto;
+}
+
+.description-container blockquote::before {
+    content: '“';
+    top: 0.3rem;
+    left: 0.9rem;
+}
+
+.description-container blockquote::after {
+    content: '”';
+    bottom: 0.3rem;
+    right: 0.8rem;
+}
+
+.user-details .divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.photo-link-container {
+    box-sizing: border-box;
+    line-height: 1.65;
+    position: relative;
+    text-align: center;
+}
+
+.photo-link {
+    /* RESET */
+    text-decoration: none;
+    line-height: 1;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    padding: 5px 5px;
+    overflow: hidden;
+    color: #333;
+    vertical-align: bottom;
+    transition: color .3s ease-out;
+    font: 2rem/100% Roboto;
+    color: #64b3f4;
+}
+
+.photo-link::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: translateY(calc(100% - 2px));
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+    transition: transform .25s ease-out;
+}
+
+.photo-link:hover {
+    color: #fff;
+}
+.photo-link:hover::before {
+    transform: translateY(0);
+    transition: transform .25s ease-out;
+}
+

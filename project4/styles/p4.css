@@ -1,0 +1,21 @@
+.button-container {
+    margin-bottom: 15px;
+}
+
+#change-button {
+    display:block;
+    padding:0.3em 1.2em;
+    margin: 0 auto;
+    border-radius:2em;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+    font-size: 20px;
+}
+#change-button:hover{
+    background-color:#4095c6;
+}

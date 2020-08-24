@@ -1,0 +1,103 @@
+.cs142-topbar-appBar {
+  height: 60;
+  justify-content: 'center';
+}
+
+.topbar-wrap {
+  width: 100%;
+  clear: both;
+}
+
+.topbar-left {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.topbar-right {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.logout-button, .upload-button, .activity-button {
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+#choose-file + label, .upload-button {
+  margin-left: 10px;
+  background-color: transparent;
+}
+
+.logout-button:hover, #choose-file + label:hover, .upload-button:hover, .activity-button:hover {
+  cursor: pointer;
+}
+
+.logout-button:active, #choose-file + label:active, .upload-button:active, .activity-button:active {
+  transform: scale(0.95);
+}
+
+.logout-button:focus, #choose-file:focus + label, .upload-button:focus, .activity-button:focus {
+  outline: none;
+}
+
+.logout-button.ghost, #choose-file.ghost + label, .upload-button.ghost, .activity-button.ghost {
+  background-color: transparent;
+  border-color: #FFFFFF;
+}
+
+#choose-file {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.logout-button {
+  margin-left: 10px;
+}
+
+.activity-button {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.check-box-container {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #1B2631;
+}
+
+#multiselectContainerReact {
+  margin-left: 10px;
+  display: inline;
+}
+
+#multiselectContainerReact span{
+  display: none;
+}
+
+._2iA8p44d0WZ-WqRBGcAuEV {
+  border: none;
+  display: inline;
+  width: 100px;
+  font-size: 10px;
+}
+
+.optionListContainer {
+  margin-left: 192px;
+  font-size: 10px;
+  color: #333333;
+}

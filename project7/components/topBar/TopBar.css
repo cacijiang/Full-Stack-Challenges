@@ -1,0 +1,69 @@
+.cs142-topbar-appBar {
+  height: 60;
+  justify-content: 'center';
+}
+
+.topbar-wrap {
+  width: 100%;
+  clear: both;
+}
+
+.topbar-left {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.topbar-right {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.logout-button, .upload-button{
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+#choose-file + label, .upload-button{
+  margin-left: 10px;
+  background-color: transparent;
+}
+
+.logout-button:hover, #choose-file + label:hover, .upload-button:hover {
+  cursor: pointer;
+}
+
+.logout-button:active, #choose-file + label:active, .upload-button:active {
+  transform: scale(0.95);
+}
+
+.logout-button:focus, #choose-file:focus + label, .upload-button:active {
+  outline: none;
+}
+
+.logout-button.ghost, #choose-file.ghost + label, .upload-button.ghost{
+  background-color: transparent;
+  border-color: #FFFFFF;
+}
+
+#choose-file {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.logout-button {
+  margin-left: 12px;
+}

@@ -1,0 +1,21 @@
+.cs142-topbar-appBar {
+  height: 60;
+  justify-content: 'center';
+}
+
+.topbar-wrap {
+  width: 100%;
+  clear: both;
+}
+
+.topbar-left {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.topbar-right {
+  float: right;
+  width: 50%;
+  text-align: right;
+}

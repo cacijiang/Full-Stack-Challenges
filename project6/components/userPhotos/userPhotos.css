@@ -1,0 +1,51 @@
+.photo-user-container {
+    width: 100%;
+}
+
+.card-wrap {
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container .image{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.image-container .post-date, .comments-container .comment-date {
+    text-align: right;
+    font-style: italic;
+    color: #999999;
+    margin-right: 5px;
+}
+
+.comments-container {
+    position: relative;
+    width: 100%;
+}
+
+.comment-wrap {
+    width: 100%;
+    background-color: #F2F3F4;
+    border-radius: 5px;
+}
+
+.comment-list-item {
+    text-decoration: none;
+}
+
+.comment-wrap:hover {
+    text-decoration: none;
+    background-color: #F2F3F4;
+}
+
+.comments-container .comment-text {
+    text-align: justify;
+    color: #454545;
+}

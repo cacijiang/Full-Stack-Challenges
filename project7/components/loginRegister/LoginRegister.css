@@ -1,0 +1,108 @@
+.login-card, .register-card {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.register-card {
+    margin-top: 20px;
+}
+
+.login-form, .register-form {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-title {
+    padding-bottom: 10px;
+    color: #76D7C4;
+}
+
+#username-icon, #password-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.login-form .error-message, .register-form .error-message {
+    color: #E74C3C;
+    margin-top: 12px;
+    min-height: 20px;
+}
+
+.register-message {
+    color: #76D7C4;
+    margin-top: 12px;
+    min-height: 20px;
+}
+
+.login-form input, .register-form input {
+    background-color: #eee;
+    border: none;
+    padding: 10px 12px;
+    margin-bottom: 7px;
+}
+
+.login-form button, .register-form button {
+    border-radius: 20px;
+    border: 1px solid #76D7C4;
+    background-color: #76D7C4 ;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.login-form button:hover, .register-form button:hover {
+    cursor: pointer;
+}
+
+.login-form button:active, .register-form button:active {
+    transform: scale(0.95);
+}
+
+.login-form button:focus, .register-form button:focus {
+    outline: none;
+}
+
+.login-form button.ghost, .register-form button.ghost {
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+
+.register-title {
+    display: inline-block;
+}
+
+#register-login-name-input {
+    margin-left: 46px;
+}
+
+#register-password-input {
+    margin-left: 60px;
+}
+
+#register-password-confirm-input {
+    margin-left: 5px;
+}
+
+#register-first-name-input, #register-last-name-input {
+    margin-left: 53px;
+}
+
+#register-location-input {
+    margin-left: 67px;
+}
+
+#register-description-input, #register-occupation-input {
+    margin-left: 50px;
+}

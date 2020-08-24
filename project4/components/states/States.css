@@ -1,0 +1,55 @@
+/*
+CSS for the CS142 project #4 Problem #2 states component
+
+Since CSS uses a global name space for classes we should use names starting with
+cs142-states- here.
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.search-container {
+    font-family: 'Open Sans';
+}
+
+.search-bar {
+    width: 100%;
+    font-size: 20px;
+    color: #454545;
+    text-align: center;
+    border-bottom: 1px solid lightblue;
+    padding-bottom: 10px;
+}
+
+#inId2 {
+    width: 25%;
+    border: 3px solid #00B4CC;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    color: #9DBFAF;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.search-result {
+    display: flex;
+    justify-content: center;
+}
+
+.search-result ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.search-result li {
+    padding: 5px 10px;
+    background-color: #EEEEEE;
+    border: 1px solid #DDDDDD;
+}
+
+#warning {
+    color: #FA8072;
+}
+

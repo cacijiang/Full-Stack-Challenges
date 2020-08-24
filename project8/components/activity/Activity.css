@@ -1,0 +1,61 @@
+.thumbnail {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+}
+
+.activity-title {
+    padding-bottom: 10px;
+    color: #17A589;
+    text-align: center;
+}
+
+.activity-list-item {
+    height: 65px;
+}
+
+.activity-time {
+    font-style: italic;
+    color: #999999;
+    padding-right: 20px;
+}
+
+.activity-user-name {
+    padding-right: 5px;
+}
+
+.update-button {
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+    border: 1px solid #76D7C4;
+    background-color: #76D7C4 ;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.update-button:hover {
+    cursor: pointer;
+}
+
+.update-button:active {
+    transform: scale(0.95);
+}
+.update-button:focus {
+    outline: none;
+}
+
+.update-button.ghost {
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+
+.activity-container {
+    padding-bottom: 7px;
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3b34921-8361-42e1-a7f3-6ca8b8336142" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bgcM15Pat8CDRZatTK0AKpkaKS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RunManager">
+    <configuration name="fetchModelData.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/fetchModelData.js" working-dir="$PROJECT_DIR$/lib">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.fetchModelData.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3b34921-8361-42e1-a7f3-6ca8b8336142" name="Default Changelist" comment="" />
+      <created>1589057125827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589057125827</updated>
+      <workItem from="1589057128191" duration="68000" />
+      <workItem from="1589057266338" duration="44175000" />
+      <workItem from="1589404761339" duration="31240000" />
+      <workItem from="1589517580921" duration="211000" />
+      <workItem from="1589569290403" duration="634000" />
+      <workItem from="1590012638038" duration="20512000" />
+      <workItem from="1590139211741" duration="2408000" />
+      <workItem from="1590142171628" duration="161000" />
+      <workItem from="1590641427011" duration="128090000" />
+      <workItem from="1591400277218" duration="2000" />
+      <workItem from="1591400355100" duration="161000" />
+      <workItem from="1591482175718" duration="84025000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1419" height="231" key="GridCell.Tab.0.bottom" timestamp="1589516448747">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1899" height="288" key="GridCell.Tab.0.bottom/-480.-1080.1920.1080/0.0.1440.900@-480.-1080.1920.1080" timestamp="1589444817314" />
+    <state width="1419" height="231" key="GridCell.Tab.0.bottom/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589516448747" />
+    <state width="1419" height="231" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589509695809" />
+    <state width="1899" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589496302353" />
+    <state width="1419" height="231" key="GridCell.Tab.0.center" timestamp="1589516448746">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1899" height="288" key="GridCell.Tab.0.center/-480.-1080.1920.1080/0.0.1440.900@-480.-1080.1920.1080" timestamp="1589444817313" />
+    <state width="1419" height="231" key="GridCell.Tab.0.center/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589516448746" />
+    <state width="1419" height="231" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589509695807" />
+    <state width="1899" height="288" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589496302351" />
+    <state width="1419" height="231" key="GridCell.Tab.0.left" timestamp="1589516448745">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1899" height="288" key="GridCell.Tab.0.left/-480.-1080.1920.1080/0.0.1440.900@-480.-1080.1920.1080" timestamp="1589444817312" />
+    <state width="1419" height="231" key="GridCell.Tab.0.left/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589516448745" />
+    <state width="1419" height="231" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589509695806" />
+    <state width="1899" height="288" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589496302351" />
+    <state width="1419" height="231" key="GridCell.Tab.0.right" timestamp="1589516448746">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1899" height="288" key="GridCell.Tab.0.right/-480.-1080.1920.1080/0.0.1440.900@-480.-1080.1920.1080" timestamp="1589444817314" />
+    <state width="1419" height="231" key="GridCell.Tab.0.right/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589516448746" />
+    <state width="1419" height="231" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589509695808" />
+    <state width="1899" height="288" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589496302352" />
+    <state x="625" y="243" key="run.anything.popup" timestamp="1591756548448">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state x="145" y="-844" key="run.anything.popup/-480.-1057.1920.1057/0.23.1440.828@-480.-1057.1920.1057" timestamp="1590130057832" />
+    <state x="145" y="-862" key="run.anything.popup/0.0.1440.900/-480.-1080.1920.1080@-480.-1080.1920.1080" timestamp="1590808692467" />
+    <state x="469" y="197" key="run.anything.popup/0.0.1440.900/-480.-1080.1920.1080@0.0.1440.900" timestamp="1590805954215" />
+    <state x="625" y="243" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1591148123556" />
+    <state x="145" y="-862" key="run.anything.popup/0.23.1440.826/-480.-1057.1920.1057@-480.-1057.1920.1057" timestamp="1591493941813" />
+    <state x="145" y="-862" key="run.anything.popup/0.23.1440.827/-480.-1057.1920.1057@-480.-1057.1920.1057" timestamp="1590916766909" />
+    <state x="145" y="-862" key="run.anything.popup/0.23.1440.877/-480.-1057.1920.1057@-480.-1057.1920.1057" timestamp="1591491892372" />
+    <state x="625" y="243" key="run.anything.popup/0.23.1920.1006@0.23.1920.1006" timestamp="1591756548448" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1590965175869">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1590965175869" />
+  </component>
+</project>
