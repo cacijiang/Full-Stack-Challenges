@@ -18,7 +18,7 @@
     "async": "^3.1.1",
     "axios": "^0.19.2",
     "bluebird": "^3.5.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "file-loader": "^3.0.1",
     "js-yaml": "^3.13.1",
     "mongoose": "^5.9.1",
